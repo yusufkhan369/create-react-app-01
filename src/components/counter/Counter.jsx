@@ -17,12 +17,6 @@ export default function Counter() {
 
         < div className="Counter" >
             <span className="count">{count}</span>
-            <div>
-                <button className="counterButton" onClick={incrementCounterFunction}
-                >+1</button>
-                <button className="counterButton" onClick={decrementCounterFunction}
-                >-1</button>
-            </div>
         </div >
 
     )
